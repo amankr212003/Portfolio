@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="assets/profile.png" alt="Aman Kumar">
+            </div>
+            <h1>Hi, I'm <span class="name-animation">AMAN KUMAR</span></h1>
+            <h2 class="role-animation">Software Developer</h2>
+            <p>Creating efficient solutions through technology and innovation</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="assets/profile.png" alt="Aman Kumar">
+            </div>
+            <div class="about-text">
+                <p>I am a passionate software enthusiast with strong skills in Java, C, C++ & MySQL, along with a solid understanding of OOP & data structures. My expertise lies in developing interactive projects and crafting responsive web applications.</p>
+                <p>Currently pursuing B.Sc in Computer Application at St. Xavier's College, Ranchi. I am always eager to learn and create smart, efficient solutions. My dedication lies in solving real-world problems through technology and innovation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <i class="fas fa-globe"></i>
+                <h3>Web Development Fundamentals</h3>
+                <p>by IBM</p>
+            </div>
+            <div class="cert-card">
+                <i class="fab fa-aws"></i>
+                <h3>AWS APAC</h3>
+                <p>Solutions Architecture Job Simulation by Forage</p>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Certification</h3>
+                <p>by oneroadmap</p>
+            </div>
+            <div class="cert-card">
+                <i class="fab fa-java"></i>
+                <h3>Java Certification</h3>
+                <p>by OneRoadMap</p>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-robot"></i>
+                <h3>Career Essentials in Generative AI</h3>
+                <p>by Microsoft and LinkedIn</p>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-code"></i>
+                <h3>C Programming</h3>
+                <p>by Simplilearn</p>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-code"></i>
+                <h3>C++ Programming</h3>
+                <p>by Simplilearn</p>
+            </div>
+            <div class="cert-card">
+                <i class="fab fa-java"></i>
+                <h3>Java Basic</h3>
+                <p>by HackerRank</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/sorting.png" alt="Sorting Visualizer">
+                </div>
+                <h3>Sorting Visualizer</h3>
+                <div class="project-links">
+                    <a href="https://visual-sort-ease.netlify.app/" class="project-link" target="_blank">Live Demo</a>
+                    <a href="https://github.com/amankr212003/Sorting-Visualizer" class="project-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/tic_tac_toe.png" alt="Tic-Tac-Toe Game">
+                </div>
+                <h3>Tic-Tac-Toe Game</h3>
+                <div class="project-links">
+                    <a href="https://kaleidoscopic-flan-bb7448.netlify.app/" class="project-link" target="_blank">Live Demo</a>
+                    <a href="https://github.com/amankr212003/Tic-Tac-Toe" class="project-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/netflix.png" alt="Netflix UI Clone">
+                </div>
+                <h3>Netflix UI Clone</h3>
+                <div class="project-links">
+                    <a href="https://lambent-conkies-c0f945.netlify.app/" class="project-link">Live Demo</a>
+                    <a href="https://github.com/amankr212003/Netflix-UI-Clone" class="project-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fab fa-github" style="font-size: 5rem; color: #333; display: flex; justify-content: center; align-items: center; height: 100%;"></i>
+                </div>
+                <h3>More Projects</h3>
+                <p style="text-align: center; margin: 10px 0;">Explore more of my projects on GitHub</p>
+                <div class="project-links">
+                    <a href="https://github.com/amankr212003" class="project-link" target="_blank" style="width: 100%;">View GitHub Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>C</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>C++</h3>
+            </div>  
+            <div class="skill-card">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-sitemap"></i>
+                <h3>Data Structures</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> (+91) 9334709024</p>
+                <p><i class="fas fa-envelope"></i> amangupta212003@gmail.com</p>
+            </div>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/amankr212003" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/aman-kumar-1275a2256" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Aman Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
