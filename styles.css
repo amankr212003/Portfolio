@@ -43,7 +43,6 @@ body {
     margin-bottom: 3rem;
     color: var(--primary-light);
     position: relative;
-    display: block;
     width: 100%;
 }
 
@@ -741,6 +740,25 @@ img.loaded {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3.2rem;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .about-content {
+        gap: 2rem;
+    }
+    
+    .about-image {
+        flex: 0 0 280px;
+        height: 280px;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -780,7 +798,7 @@ img.loaded {
     }
 
     .cert-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .profile-image {
@@ -803,10 +821,112 @@ img.loaded {
     }
     
     .project-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .contact-content {
         padding: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 4rem 1rem;
+    }
+    
+    .hero-content {
+        padding: 1.5rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .cert-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 1rem 5%;
+    }
+    
+    .hero {
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.3rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .about-image {
+        height: 200px;
+    }
+    
+    .about-text p {
+        font-size: 0.95rem;
+    }
+    
+    .project-image {
+        height: 180px;
+    }
+    
+    .project-card h3, .skill-card h3, .cert-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .social-links {
+        gap: 1.5rem;
+    }
+    
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.3rem;
+    }
+    
+    .cta-button {
+        padding: 0.9rem 1.8rem;
+        font-size: 1rem;
+    }
+    
+    input, textarea {
+        padding: 0.8rem 1rem;
+        font-size: 0.95rem;
     }
 } 
